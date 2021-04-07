@@ -1,3 +1,4 @@
+// The main objection of nested object is to put everything on object
 let spaceship = {
     passengers: null,
     telescope: {
