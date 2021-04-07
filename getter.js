@@ -3,6 +3,7 @@
 const robot = {
     _model: '1E78V2',
     _energyLevel: 100,
+    // using 'get' syntax to use getter
     get energyLevel() {
         /* If this._energyLevel isn’t a number it could be that the _energyLevel property was altered. Let’s add a default return statement for when such a scenario arises.
         

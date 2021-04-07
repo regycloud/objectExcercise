@@ -1,3 +1,5 @@
+// Setter is to set value in an object
+
 const robot = {
     _model: '1E78V2',
     _energyLevel: 100,
@@ -9,6 +11,7 @@ const robot = {
         return 'Sensors are currently down.'
       }
     },
+    // Here, set is working with 'set' syntax
     set numOfSensors(num) {
       if ((typeof(num) === 'number') && (num >= 0)) {
         this._numOfSensors = num;
