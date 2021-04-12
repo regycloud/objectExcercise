@@ -64,6 +64,11 @@ const menu = {
   menu.addDishToCourse('desserts', 'red bean ice cream', 3);
   
   const meal = menu.generateRandomMeal();
+  console.log(menu._courses.mains.push('ayam kuluyuk'));
+  console.log(menu.courses.mains);
   console.log(meal);
+
+
+
   
   
