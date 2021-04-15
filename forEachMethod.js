@@ -10,3 +10,6 @@ fruits.forEach(function(fruitItem) {
   }
   console.log(`I want to eat ${article} ${fruitItem}`)
 });
+
+const dimanaBuahApel = fruits.indexOf('apple');
+console.log(dimanaBuahApel)
